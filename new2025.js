@@ -12,4 +12,15 @@ const myname = "sadik";
 const egg = 45;
 const milk = 70;
 const total = egg + milk;
-console.log(total);
+// console.log(total);
+
+// console.log(100 % 11);
+
+
+const passed = false;
+// console.log(typeof passed);
+
+// console.log(typeof myname);
+let balance = 500;
+balance = 400;
+console.log(balance);
