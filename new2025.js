@@ -16,9 +16,10 @@ const total = egg + milk;
 
 // console.log(100 % 11);
 
-
 const passed = false;
 // console.log(typeof passed);
+
+// let change value
 
 // console.log(typeof myname);
 let balance = 500;
@@ -27,4 +28,19 @@ balance = 400;
 
 let moneyHave = 1400;
 moneyHave = 1355;
-console.log(moneyHave);
+// console.log(moneyHave);
+
+const age = "23";
+const ageN = parseInt(age);
+// console.log(typeof(ageN));
+
+const egg2 = "45";
+const eggN = parseFloat(egg);
+// console.log(typeof eggN);
+// console.log(eggN);
+
+const first = 12.13568;
+const second = 31.22564;
+const totalN = first + second;
+const totalNumber = parseFloat(totalN.toFixed(2));
+// console.log("hello", totalNumber);
