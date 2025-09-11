@@ -23,4 +23,8 @@ const passed = false;
 // console.log(typeof myname);
 let balance = 500;
 balance = 400;
-console.log(balance);
+// console.log(balance);
+
+let moneyHave = 1400;
+moneyHave = 1355;
+console.log(moneyHave);
