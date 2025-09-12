@@ -44,3 +44,13 @@ const second = 31.22564;
 const totalN = first + second;
 const totalNumber = parseFloat(totalN.toFixed(2));
 // console.log("hello", totalNumber);
+
+// console.log(5 >= 10);
+
+const eggPrice = 45;
+const milkPrice = 70 ;
+// console.log(eggPrice > milkPrice);
+
+const nameS = "sadik";
+const nameSS = "sadik"
+console.log(nameS == nameSS);
