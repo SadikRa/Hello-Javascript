@@ -48,9 +48,36 @@ const totalNumber = parseFloat(totalN.toFixed(2));
 // console.log(5 >= 10);
 
 const eggPrice = 45;
-const milkPrice = 70 ;
+const milkPrice = 70;
 // console.log(eggPrice > milkPrice);
 
 const nameS = "sadik";
-const nameSS = "sadik"
-console.log(nameS == nameSS);
+const nameSS = "sadik";
+// console.log(nameS == nameSS);
+
+// console.log(10 == "10" );
+// console.log(10 === "10" );
+
+const kill = 3;
+
+if (kill > 10) {
+//   console.log("yap i am a pro now");
+} else {
+//   console.log("nah, i am still a noob");/
+}
+
+
+const rainingOutside = true;
+if (rainingOutside == true) {
+// console.log("You and me, under the tree");
+} else {
+// console.log("No rain, no romance.");
+}
+
+const salary = 20000;
+if(salary > 30000){
+    console.log('now you can go on a trip');
+}else{
+    console.log('nah, you can not go you are poor');
+}
+
