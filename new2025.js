@@ -61,23 +61,45 @@ const nameSS = "sadik";
 const kill = 3;
 
 if (kill > 10) {
-//   console.log("yap i am a pro now");
+  //   console.log("yap i am a pro now");
 } else {
-//   console.log("nah, i am still a noob");/
+  //   console.log("nah, i am still a noob");/
 }
-
 
 const rainingOutside = true;
 if (rainingOutside == true) {
-// console.log("You and me, under the tree");
+  // console.log("You and me, under the tree");
 } else {
-// console.log("No rain, no romance.");
+  // console.log("No rain, no romance.");
 }
 
-const salary = 20000;
-if(salary > 30000){
-    console.log('now you can go on a trip');
-}else{
-    console.log('nah, you can not go you are poor');
+const salary = 40000;
+if (salary > 30000) {
+  // console.log('now you can go on a trip');
+} else {
+  // console.log('nah, you can not go you are poor');
 }
 
+const time = true;
+if (salary > 30000 && time == true) {
+  // console.log('now you can go on a trip');
+} else {
+  // console.log('nah, you can not go you are poor');
+}
+
+const freeBus = true;
+
+if (salary > 30000 || freeBus == true) {
+  // console.log('now you can go on a trip');
+} else {
+  // console.log('nah, you can not go you are poor');
+}
+
+const Dprice = 6000;
+if (Dprice >= 5000) {
+  const discount = (Dprice / 100) * 10;
+  const pay = Dprice - discount;
+//   console.log("hello", pay);
+} else {
+//   console.log(price);
+}
