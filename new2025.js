@@ -162,3 +162,9 @@ const subjects = ['quran', 'hadith', 'mutalah hadith', 'tafseer']
 for(const read of subjects){
   // console.log(read);
 }
+
+const foods = ['meat', 'milk', 'egg', 'ruti']
+
+for(const eat of foods){
+  console.log(eat);
+}
