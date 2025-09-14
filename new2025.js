@@ -166,5 +166,11 @@ for(const read of subjects){
 const foods = ['meat', 'milk', 'egg', 'ruti']
 
 for(const eat of foods){
-  console.log(eat);
+  // console.log(eat);
+}
+
+let num = 0 ;
+while(num < 5){
+  console.log(num);
+  num = num + 1
 }
