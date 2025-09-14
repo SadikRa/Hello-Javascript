@@ -116,33 +116,44 @@ const priceT = 300;
 //   ? console.log("yah, you can buy it")
 //   : console.log("nah you can not buy it");
 
-  const days = ['tomorrow before is today', 'yesterday after today']
+const days = ["tomorrow before is today", "yesterday after today"];
 
-  // console.log(days.length);
-  // console.log(days[1]);
+// console.log(days.length);
+// console.log(days[1]);
 
-  days.push('today is today')
+days.push("today is today");
 
-  // console.log(days);
+// console.log(days);
 
-  // days.pop()
+// days.pop()
 
-  // console.log(days);
+// console.log(days);
 
-  days.shift()
+days.shift();
 
-  days.unshift('today link yesterday')
+days.unshift("today link yesterday");
 
-  // console.log(days);
+// console.log(days);
 
-  const friends = ['balam', 'kalam', 'salam', 'gelam', 'pailam'];
+const friends = ["balam", "kalam", "salam", "gelam", "pailam"];
 
-  const exist = friends.includes('kalam')
+const exist = friends.includes("kalam");
 
-  // console.log(exist);
+// console.log(exist);
 
-  const index = friends.indexOf('kalam');
+const index = friends.indexOf("kalam");
 
-  console.log(index);
+// console.log(index);
 
+const numbers = [12, 98, 45, 63, 21, 72];
+
+for(const num of numbers){
+  // console.log(num);
+}
+
+const fruits = ['orange', 'apple', 'banana','jackfruit', 'watermelon'];
+
+for( eat of fruits){
+  // console.log(eat);
+}
 
