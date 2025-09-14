@@ -112,6 +112,10 @@ if (!false) {
 
 const priceT = 300;
 
-priceT == 300
-  ? console.log("yah, you can buy it")
-  : console.log("nah you can not buy it");
+// priceT == 300
+//   ? console.log("yah, you can buy it")
+//   : console.log("nah you can not buy it");
+
+  const days = ['tomorrow before is today', 'yesterday after today']
+
+  console.log(days.length);
