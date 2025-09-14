@@ -118,4 +118,5 @@ const priceT = 300;
 
   const days = ['tomorrow before is today', 'yesterday after today']
 
-  console.log(days.length);
+  // console.log(days.length);
+  // console.log(days[1]);
