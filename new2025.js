@@ -99,7 +99,19 @@ const Dprice = 6000;
 if (Dprice >= 5000) {
   const discount = (Dprice / 100) * 10;
   const pay = Dprice - discount;
-//   console.log("hello", pay);
+  //   console.log("hello", pay);
 } else {
-//   console.log(price);
+  //   console.log(price);
 }
+
+const booleanR = true;
+
+if (!false) {
+  // console.log("yes it;s possible");
+}
+
+const priceT = 300;
+
+priceT == 300
+  ? console.log("yah, you can buy it")
+  : console.log("nah you can not buy it");
