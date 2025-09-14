@@ -120,3 +120,29 @@ const priceT = 300;
 
   // console.log(days.length);
   // console.log(days[1]);
+
+  days.push('today is today')
+
+  // console.log(days);
+
+  // days.pop()
+
+  // console.log(days);
+
+  days.shift()
+
+  days.unshift('today link yesterday')
+
+  // console.log(days);
+
+  const friends = ['balam', 'kalam', 'salam', 'gelam', 'pailam'];
+
+  const exist = friends.includes('kalam')
+
+  // console.log(exist);
+
+  const index = friends.indexOf('kalam');
+
+  console.log(index);
+
+
