@@ -157,3 +157,8 @@ for( eat of fruits){
   // console.log(eat);
 }
 
+const subjects = ['quran', 'hadith', 'mutalah hadith', 'tafseer']
+
+for(const read of subjects){
+  // console.log(read);
+}
