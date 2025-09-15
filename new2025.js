@@ -192,5 +192,15 @@ let fatAlBari = 0;
 
 while (fatAlBari < 4) {
   // console.log("read one more time");
-  fatAlBari ++
+  fatAlBari++;
 }
+
+let num1 = 1;
+let sum = 0;
+while (num <= 10) {
+  console.log(num);
+  sum = sum + num;
+  num++;
+}
+
+console.log("Sum: ", sum);
