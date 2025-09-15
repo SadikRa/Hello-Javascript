@@ -198,9 +198,20 @@ while (fatAlBari < 4) {
 let num1 = 1;
 let sum = 0;
 while (num <= 10) {
-  console.log(num);
+  // console.log(num);
   sum = sum + num;
   num++;
 }
+// console.log(sum);
 
-console.log("Sum: ", sum);
+let num2 = 50;
+let sum2 = 0;
+
+while (num2 <= 100) {
+  sum2 = sum2 + num2;
+  num2++;
+}
+
+// console.log(sum2);
+
+
