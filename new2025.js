@@ -147,30 +147,50 @@ const index = friends.indexOf("kalam");
 
 const numbers = [12, 98, 45, 63, 21, 72];
 
-for(const num of numbers){
+for (const num of numbers) {
   // console.log(num);
 }
 
-const fruits = ['orange', 'apple', 'banana','jackfruit', 'watermelon'];
+const fruits = ["orange", "apple", "banana", "jackfruit", "watermelon"];
 
-for( eat of fruits){
+for (eat of fruits) {
   // console.log(eat);
 }
 
-const subjects = ['quran', 'hadith', 'mutalah hadith', 'tafseer']
+const subjects = ["quran", "hadith", "mutalah hadith", "tafseer"];
 
-for(const read of subjects){
+for (const read of subjects) {
   // console.log(read);
 }
 
-const foods = ['meat', 'milk', 'egg', 'ruti']
+const foods = ["meat", "milk", "egg", "ruti"];
 
-for(const eat of foods){
+for (const eat of foods) {
   // console.log(eat);
 }
 
-let num = 0 ;
-while(num < 5){
-  console.log(num);
-  num = num + 1
+let num = 0;
+while (num < 5) {
+  // console.log(num);
+  num = num + 1;
+}
+
+let school = 0;
+
+while (school < 5) {
+  // console.log('sarir bil primary school');
+  school++;
+}
+
+const bookss = ["fat al bari", "muslim", "tirmigy", "nasay"];
+
+for (const book of bookss) {
+  // console.log(book);
+}
+
+let fatAlBari = 0;
+
+while (fatAlBari < 4) {
+  // console.log("read one more time");
+  fatAlBari ++
 }
