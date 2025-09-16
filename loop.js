@@ -69,6 +69,15 @@ for (let i = 1; i <= 30; i++) {
 
 for (let i = 20; i <= 50; i++) {
   if (i % 7 == 0) {
-    console.log(i);
+    // console.log(i);
   }
 }
+
+
+for(let i = 0; i < 15; i++) {
+console.log(i);
+if(i >= 7) {
+break;
+}
+}
+
