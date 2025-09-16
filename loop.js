@@ -114,3 +114,15 @@ const users = [
   { id: 2, name: "Aisha", age: 25 },
   { id: 3, name: "Rahim", age: 28 }
 ];
+
+
+const subject = {
+  name: "biology",
+  teacher: "rasheda",
+  examDate: "30 dec",
+  chapters: ["first", "second", "third"],
+  nextExam: {
+    name: "Final Exam",
+    marks: 100
+  }
+};
