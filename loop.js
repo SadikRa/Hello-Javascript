@@ -107,3 +107,10 @@ const phone = {
   color: "solver",
   version: 20,
 };
+
+
+const users = [
+  { id: 1, name: "Sadik", age: 22 },
+  { id: 2, name: "Aisha", age: 25 },
+  { id: 3, name: "Rahim", age: 28 }
+];
