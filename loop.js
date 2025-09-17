@@ -108,13 +108,11 @@ const phone = {
   version: 20,
 };
 
-
 const users = [
   { id: 1, name: "Sadik", age: 22 },
   { id: 2, name: "Aisha", age: 25 },
-  { id: 3, name: "Rahim", age: 28 }
+  { id: 3, name: "Rahim", age: 28 },
 ];
-
 
 const subject = {
   name: "biology",
@@ -123,21 +121,26 @@ const subject = {
   chapters: ["first", "second", "third"],
   nextExam: {
     name: "Final Exam",
-    marks: 100
-  }
+    marks: 100,
+  },
 };
 
-
 const person = {
-name: 'sodor uddain',
-age: 25,
-profession: 'developer',
-salary: 25000,
-married: true,
-'fav places': ['bandarban', 'saintmartin', 'kuakata']
+  name: "sodor uddain",
+  age: 25,
+  profession: "developer",
+  salary: 25000,
+  married: true,
+  "fav places": ["bandarban", "saintmartin", "kuakata"],
 };
 
 // console.log(person['fav places']);
 
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
 
-
+if(person.hasOwnProperty('name')){
+  console.log('yah name asa');
+}else{
+  console.log('nah nam ni');
+}
