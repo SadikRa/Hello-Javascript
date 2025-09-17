@@ -35,4 +35,27 @@ function addAll(a, b, c, d, e, f) {
 }
 
 const result1 = addAll(1, 2, 3, 4, 5, 6);
-console.log(result1);
+// console.log(result1);
+
+function isGreaterThanTen(number) {
+  if (number > 10) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// Example use:
+// console.log(isGreaterThanTen(5));
+// console.log(isGreaterThanTen(15));
+
+function thirtin(number) {
+  if (number % 13 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// console.log(thirtin(26));
+// console.log(thirtin(27));
