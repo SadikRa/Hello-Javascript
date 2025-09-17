@@ -162,11 +162,10 @@ const perso1 = { name: "Alice", age: 25, country: "Bangladesh" };
 delete perso1.age;
 // console.log(perso1);
 
-
 const adminUser = {
-username: "admin",
-email: "admin@example.com",
-role: "superadmin"
+  username: "admin",
+  email: "admin@example.com",
+  role: "superadmin",
 };
 
 Object.freeze(adminUser);
@@ -178,12 +177,10 @@ delete adminUser.email;
 
 // console.log(adminUser);
 
-
-
 const user = {
-username: "johndoe",
-email: "john.doe@example.com",
-password: "oldpassword"
+  username: "johndoe",
+  email: "john.doe@example.com",
+  password: "oldpassword",
 };
 
 Object.seal(user);
@@ -194,6 +191,3 @@ user.age = 30; // adding new property is not allowed
 delete user.email; // deleting property is not allowed
 
 // console.log(user);
-
-
-
