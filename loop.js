@@ -139,8 +139,21 @@ const person = {
 // console.log(Object.keys(person));
 // console.log(Object.values(person));
 
-if(person.hasOwnProperty('name')){
-  console.log('yah name asa');
-}else{
-  console.log('nah nam ni');
+if (person.hasOwnProperty("name")) {
+  // console.log('yah name asa');
+} else {
+  // console.log('nah nam ni');
+}
+
+// console.log(Object.entries(person));
+
+const profile = {
+  name: "Rahim",
+  age: 28,
+  city: "Dhaka",
+};
+
+for (const key in profile) {
+  const value = profile[key];
+  console.log(key, value);
 }
