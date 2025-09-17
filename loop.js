@@ -155,5 +155,11 @@ const profile = {
 
 for (const key in profile) {
   const value = profile[key];
-  console.log(key, value);
+  // console.log(key, value);
 }
+
+
+const perso1 = { name: "Alice", age: 25, country: "Bangladesh" }; 
+delete perso1.age;
+console.log(perso1);
+
