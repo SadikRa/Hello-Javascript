@@ -158,8 +158,42 @@ for (const key in profile) {
   // console.log(key, value);
 }
 
-
-const perso1 = { name: "Alice", age: 25, country: "Bangladesh" }; 
+const perso1 = { name: "Alice", age: 25, country: "Bangladesh" };
 delete perso1.age;
-console.log(perso1);
+// console.log(perso1);
+
+
+const adminUser = {
+username: "admin",
+email: "admin@example.com",
+role: "superadmin"
+};
+
+Object.freeze(adminUser);
+
+// Attempt to modify the object
+adminUser.role = "user";
+adminUser.password = "123456";
+delete adminUser.email;
+
+// console.log(adminUser);
+
+
+
+const user = {
+username: "johndoe",
+email: "john.doe@example.com",
+password: "oldpassword"
+};
+
+Object.seal(user);
+
+// Attempt to modify the object
+user.password = "newpassword"; // Allowed
+user.age = 30; // adding new property is not allowed
+delete user.email; // deleting property is not allowed
+
+// console.log(user);
+
+
 
