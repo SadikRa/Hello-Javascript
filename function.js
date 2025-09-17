@@ -24,7 +24,7 @@ function doubleIt(number) {
 // doubleIt(12)
 
 function addNumbers(a, b) {
-  console.log(arguments);
+  //   console.log(arguments);
   return a + b;
 }
 const result = addNumbers(5, 8, 9, 6);
@@ -59,3 +59,10 @@ function thirtin(number) {
 
 // console.log(thirtin(26));
 // console.log(thirtin(27));
+
+function thirtin(number) {
+  return number % 13 === 0; // Simplified version, same result
+}
+
+// console.log(thirtin(26)); // Output: true (correct)
+// console.log(thirtin(27)); // Output: false (correct)
