@@ -66,3 +66,24 @@ function thirtin(number) {
 
 // console.log(thirtin(26)); // Output: true (correct)
 // console.log(thirtin(27)); // Output: false (correct)
+
+function evenSizedString(str) {
+  const size = str.length;
+
+  return size % 2 === 0;
+}
+// console.log(evenSizedString("Dhaka"));
+
+
+function evenSizedString(str) {
+const size = str.length;
+
+if (size % 2 === 0) {
+console.log('Even Size');
+} else {
+console.log('Odd Size');
+}
+}
+// evenSizedString('Dhaka');
+
+
