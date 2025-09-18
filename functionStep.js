@@ -58,3 +58,11 @@ function sumOfNumbersA(numbers) {
 const numss = [12, 23, 20];
 
 // console.log(sumOfNumbersA(numss));
+
+
+function inchToFeet(inch){
+    const feet = inch / 12;
+    return feet
+}
+
+// console.log(inchToFeet(68));
