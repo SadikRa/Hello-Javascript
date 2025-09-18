@@ -111,4 +111,23 @@ function isLeapYear(year) {
 
 const leapYear = isLeapYear(2100);
 
-console.log(leapYear);
+// console.log(leapYear);
+
+function oddAverage(numbers) {
+  const odd = [];
+  for (const number of numbers) {
+    if (number % 2 == 1) {
+      odd.push(number);
+    }
+  }
+
+  let sum = 0;
+  for (const number of odd) {
+    sum += number;
+  }
+  const count = odd.length;
+  const average = sum / count;
+  return average;
+}
+
+console.log(oddAverage([1, 2, 23, 4, 23, 42, 3]));
