@@ -66,16 +66,49 @@ function inchToFeet(inch) {
 
 // console.log(inchToFeet(68));
 
+function inchToFeet1(inch) {
+  const feetFraction = inch / 12;
+  const feetNumber = parseInt(feetFraction);
 
-function inchToFeet1 (inch) {
-    const feetFraction = inch / 12 ;
-    const feetNumber = parseInt(feetFraction);
+  const inchRemaining = inch % 12;
 
-    const inchRemaining = inch % 12;
+  const result = feetNumber + " ft " + inchRemaining + " inch ";
 
-    const result = feetNumber + ' ft '  + inchRemaining + ' inch ';
-
-    return result;
+  return result;
 }
 
 // console.log(inchToFeet1(75));
+
+function isLeapYear(year) {
+  if (year % 4 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// console.log(isLeapYear(2002));
+
+function isLeapYear(year) {
+  if (year % 400 === 0) {
+    return true;
+  } else if (year % 400 !== 0 && year % 100 === 0) {
+    return false;
+  }
+}
+
+function isLeapYear(year) {
+  if (year % 400 == 0) {
+    return true;
+  } else if (year % 100 == 0) {
+    return false;
+  } else if (year % 4 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+const leapYear = isLeapYear(2100);
+
+console.log(leapYear);
