@@ -147,4 +147,21 @@ function noDuplicate(array) {
 }
 
 const uniqueArray = noDuplicate(students);
-console.log(uniqueArray);
+// console.log(uniqueArray);
+
+//practice
+
+const arrayNumbers = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5];
+
+function onlyUnique(array) {
+  const unique = [];
+
+  for (const number of array) {
+    if (unique.includes(number) === false) {
+      unique.push(number);
+    }
+  }
+  return unique;
+}
+
+// console.log(onlyUnique(arrayNumbers));
