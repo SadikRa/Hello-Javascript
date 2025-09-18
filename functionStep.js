@@ -59,10 +59,23 @@ const numss = [12, 23, 20];
 
 // console.log(sumOfNumbersA(numss));
 
-
-function inchToFeet(inch){
-    const feet = inch / 12;
-    return feet
+function inchToFeet(inch) {
+  const feet = inch / 12;
+  return feet;
 }
 
 // console.log(inchToFeet(68));
+
+
+function inchToFeet1 (inch) {
+    const feetFraction = inch / 12 ;
+    const feetNumber = parseInt(feetFraction);
+
+    const inchRemaining = inch % 12;
+
+    const result = feetNumber + ' ft '  + inchRemaining + ' inch ';
+
+    return result;
+}
+
+// console.log(inchToFeet1(75));
