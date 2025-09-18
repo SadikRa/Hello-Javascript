@@ -168,8 +168,25 @@ function onlyUnique(array) {
 
 
 let a = 4;
-let b= 5;
+let b = 5;
 
-a= b
-b= a
-console.log(a, b);
+const temp = a;
+
+a = b;
+b = temp;
+// console.log(a, b);
+
+
+
+function add(num1 = 0, num2 = 0){
+const result = num1 + num2;
+console.log(num1, num2, result);
+return result;
+}
+
+const sum5 = add();
+// console.log(sum5);
+const total = add(17, 19);
+// console.log(total);
+
+
