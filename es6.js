@@ -52,3 +52,6 @@ const friends1 = ["tom", "john", "micheal", "oliver", "tim", "joshna"];
 const oldFriends = friends1.filter((friend) => friend.length > 4);
 // console.log(oldFriends);
 
+const players = [75, 65, 67, 60, 71, 55, 59];
+const selected = players.find((player) => player > 70);
+// console.log(selected);
