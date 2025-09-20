@@ -20,4 +20,18 @@ const [first, second, ...rest] = [10, 20, 30, 40, 50];
 
 const numbers = [3, 5, 2, 45, 5, 43, 90, 32, 15];
 const arrayMax = Math.max(...numbers);
-console.log(arrayMax);
+// console.log(arrayMax);
+
+
+function doubleAll(numbers){
+  const doubled = [];
+  for(const num of numbers){
+    const value = num * 2;
+    doubled.push(value)
+  }
+  return doubled
+}
+
+const numbers1 = [3, 5, 2, 45, 5, 43, 90, 32, 15];
+// console.log(doubleAll(numbers1));
+
