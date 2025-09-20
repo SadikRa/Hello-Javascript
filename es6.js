@@ -63,3 +63,9 @@ const hasPassed = scores.some((score) => score >= 50);
 const scores1 = [60, 70, 55, 80, 90];
 const allPassed = scores1.every((score) => score >= 50);
 // console.log(allPassed);
+
+const nested = [1, 2, [3, 4, [5, 6]]];
+const flattened = nested.flat(2);
+// console.log(flattened);
+
+
