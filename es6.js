@@ -55,3 +55,11 @@ const oldFriends = friends1.filter((friend) => friend.length > 4);
 const players = [75, 65, 67, 60, 71, 55, 59];
 const selected = players.find((player) => player > 70);
 // console.log(selected);
+
+const scores = [30, 45, 55, 80, 90];
+const hasPassed = scores.some((score) => score >= 50);
+// console.log(hasPassed);
+
+const scores1 = [60, 70, 55, 80, 90];
+const allPassed = scores1.every((score) => score >= 50);
+// console.log(allPassed);
