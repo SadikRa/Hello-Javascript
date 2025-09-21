@@ -68,4 +68,9 @@ const nested = [1, 2, [3, 4, [5, 6]]];
 const flattened = nested.flat(2);
 // console.log(flattened);
 
-
+const numbers4 = [4, 5, 7, 1, 2, 66];
+let sum = 0;
+for (const num of numbers4) {
+  sum = sum + num;
+}
+// console.log(sum);
