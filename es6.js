@@ -85,6 +85,23 @@ const total = numbers6.reduce((p, c) => p + c, 0);
 const result2 = numbers6.reduce((s, n) => s + n, 0);
 // console.log(result2);
 
-const friendsS = ['sadik', 'ami', 'me', 'myself'];
-friendsS.sort()
-console.log(friendsS);
+const friendsS = ["abu bakar", "omar", "utman", "ali"];
+friendsS.sort();
+// console.log(friendsS);
+
+const numbersss = [30, 5, 100, 12];
+numbersss.sort((a, b) => a - b);
+// console.log(numbersss);
+
+const friendse = [
+  { name: "Zara", age: 25 },
+  { name: "Bob", age: 20 },
+  { name: "Anna", age: 30 },
+];
+
+friendse.sort((a, b) => a.age - b.age);
+// console.log(friendse);
+
+const names = ["Alice", "Bob", "Charlie", "David"];
+names.reverse();
+console.log(names);
