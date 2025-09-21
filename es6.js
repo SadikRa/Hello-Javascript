@@ -84,3 +84,7 @@ const total = numbers6.reduce((p, c) => p + c, 0);
 
 const result2 = numbers6.reduce((s, n) => s + n, 0);
 // console.log(result2);
+
+const friendsS = ['sadik', 'ami', 'me', 'myself'];
+friendsS.sort()
+console.log(friendsS);
