@@ -74,3 +74,13 @@ for (const num of numbers4) {
   sum = sum + num;
 }
 // console.log(sum);
+
+// reduce
+//   numbers.reduce((accumulator, currentValue) => doSomeWork, initialValue)
+
+const numbers6 = [32, 34, 73, 13, 22, 5];
+const total = numbers6.reduce((p, c) => p + c, 0);
+// console.log(total);
+
+const result2 = numbers6.reduce((s, n) => s + n, 0);
+// console.log(result2);
