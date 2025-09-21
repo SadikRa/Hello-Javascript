@@ -104,4 +104,22 @@ friendse.sort((a, b) => a.age - b.age);
 
 const names = ["Alice", "Bob", "Charlie", "David"];
 names.reverse();
-console.log(names);
+// console.log(names);
+
+const slices = names.slice(2, 3);
+// console.log(slices);
+
+const pizzaSlices = ["Bread", "Cheese", "Veggie", "BBQ", "Meet"];
+// const selectedSlices = pizzaSlices.slice(1, 4);
+
+// console.log(selectedSlices);
+// console.log(pizzaSlices);
+
+const selectedSlices = pizzaSlices.slice(2);
+console.log(selectedSlices);
+
+const movies = ["Jaws", "Rocky", "Alien", "Avatar", "Coco", "Up", "It"];
+const removed = movies.splice(2, 3);
+// console.log(removed);
+// console.log(movies);
+
