@@ -123,3 +123,8 @@ const removed = movies.splice(2, 3);
 // console.log(removed);
 // console.log(movies);
 
+const numbersa = [54, 98, 78, 21, 65];
+numbers[1] = 11;
+console.log(numbersa);
+
+Output: [54, 11, 78, 21, 65];
