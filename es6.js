@@ -116,15 +116,24 @@ const pizzaSlices = ["Bread", "Cheese", "Veggie", "BBQ", "Meet"];
 // console.log(pizzaSlices);
 
 const selectedSlices = pizzaSlices.slice(2);
-console.log(selectedSlices);
+// console.log(selectedSlices);
 
 const movies = ["Jaws", "Rocky", "Alien", "Avatar", "Coco", "Up", "It"];
-const removed = movies.splice(2, 3);
+// const removed = movies.splice(2, 3);
 // console.log(removed);
 // console.log(movies);
 
 const numbersa = [54, 98, 78, 21, 65];
 numbers[1] = 11;
-console.log(numbersa);
+// console.log(numbersa);
 
-Output: [54, 11, 78, 21, 65];
+// console.log(movies.length);
+
+const subject = "Chemistry";
+const book = "chemistry";
+
+if (subject === book) {
+  console.log("i am reading book");
+} else {
+  console.log("hudai prista ultai");
+}
