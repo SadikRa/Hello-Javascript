@@ -137,3 +137,11 @@ if (subject === book) {
 } else {
   console.log("hudai prista ultai");
 }
+
+const namee = "noMAD d MAD";
+const lower = namee.toLowerCase();
+// console.log(lower);
+
+const namef = "noman d MAN";
+const upper = namef.toUpperCase();
+//   console.log(upper);
