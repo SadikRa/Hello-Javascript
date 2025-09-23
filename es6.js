@@ -145,3 +145,12 @@ const lower = namee.toLowerCase();
 const namef = "noman d MAN";
 const upper = namef.toUpperCase();
 //   console.log(upper);
+
+const drink = " water";
+const liquid = "water ";
+
+if (drink === liquid) {
+  console.log("pani hani dami jani");
+} else {
+  console.log("somudre pani dekhte valo khaite kalo");
+}
