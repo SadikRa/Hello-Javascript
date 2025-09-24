@@ -203,7 +203,19 @@ y = 7;
 
 const value = 0;
 if (!!value) {
-  console.log("Truthy");
+  // console.log("Truthy");
 } else {
-  console.log("Falsy");
+  // console.log("Falsy");
 }
+
+function greeting(greatingHandler) {
+  greatingHandler();
+}
+
+function morningGreet() {
+  console.log("Good Morning");
+}
+
+// greeting(morningGreet);
+
+
