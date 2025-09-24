@@ -187,3 +187,16 @@ for (const letter of sentencew) {
   reverse = letter + reverse;
 }
 // console.log(reverse);
+
+let data = 42; // Number
+data = "Hello, World!"; // String
+data = true; // Boolean
+data = [10, 50, 66]; // array
+data = { name: "cat", say: "meow" }; // object
+// console.log(data);
+
+let x = 5;
+let y = x;
+// console.log(x, y);
+y = 7;
+// console.log(x, y);
