@@ -133,9 +133,9 @@ const subject = "Chemistry";
 const book = "chemistry";
 
 if (subject === book) {
-  console.log("i am reading book");
+  // console.log("i am reading book");
 } else {
-  console.log("hudai prista ultai");
+  // console.log("hudai prista ultai");
 }
 
 const namee = "noMAD d MAD";
@@ -175,3 +175,15 @@ const repeatedRep = rep.repeat(3);
 const text = "I love programming. programming is fun!";
 const result1 = text.replace("programming", "coding");
 // console.log(result1);
+
+const yobro = "420";
+const mnum = parseInt(yobro);
+
+// console.log(typeof mnum);
+
+const sentencew = "I am learning Web Dev";
+let reverse = "";
+for (const letter of sentencew) {
+  reverse = letter + reverse;
+}
+// console.log(reverse);
