@@ -200,3 +200,10 @@ let y = x;
 // console.log(x, y);
 y = 7;
 // console.log(x, y);
+
+const value = 0;
+if (!!value) {
+  console.log("Truthy");
+} else {
+  console.log("Falsy");
+}
