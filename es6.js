@@ -156,7 +156,10 @@ if (drink === liquid) {
 }
 
 if (drink.trim() === liquid.trim()) {
-  console.log("pani hani dami jani");
+  // console.log("pani hani dami jani");
 } else {
-  console.log("somudre pani dekhte valo khaite kalo");
+  // console.log("somudre pani dekhte valo khaite kalo");
 }
+
+const sentence = "i am a good and hardworking person";
+// console.log(sentence.split(" "));
