@@ -163,3 +163,11 @@ if (drink.trim() === liquid.trim()) {
 
 const sentence = "i am a good and hardworking person";
 // console.log(sentence.split(" "));
+
+const str = 21;
+const conStr = str.toString()
+// console.log(conStr);
+
+const rep = 'hello';
+const repeatedRep = rep.repeat(3)
+// console.log(repeatedRep);
