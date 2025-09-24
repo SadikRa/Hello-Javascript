@@ -165,9 +165,13 @@ const sentence = "i am a good and hardworking person";
 // console.log(sentence.split(" "));
 
 const str = 21;
-const conStr = str.toString()
+const conStr = str.toString();
 // console.log(conStr);
 
-const rep = 'hello';
-const repeatedRep = rep.repeat(3)
+const rep = "hello";
+const repeatedRep = rep.repeat(3);
 // console.log(repeatedRep);
+
+const text = "I love programming. programming is fun!";
+const result1 = text.replace("programming", "coding");
+// console.log(result1);
