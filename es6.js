@@ -150,6 +150,12 @@ const drink = " water";
 const liquid = "water ";
 
 if (drink === liquid) {
+  // console.log("pani hani dami jani");
+} else {
+  // console.log("somudre pani dekhte valo khaite kalo");
+}
+
+if (drink.trim() === liquid.trim()) {
   console.log("pani hani dami jani");
 } else {
   console.log("somudre pani dekhte valo khaite kalo");
