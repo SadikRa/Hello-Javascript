@@ -218,13 +218,34 @@ function morningGreet() {
 
 // greeting(morningGreet);
 
-for (let i = 0; i< 5 ; i++){
-  let loopMassage = 'this is inside a for loop block'
+for (let i = 0; i < 5; i++) {
+  let loopMassage = "this is inside a for loop block";
   // console.log(loopMassage);
 }
 
 let count = 0;
-while(count < 5){
+while (count < 5) {
   // console.log(count);
-  count++
+  count++;
 }
+
+const smart = true;
+if (smart) {
+  let message = "prochur gorom";
+  // console.log("Batas dao");
+} // trying to access outside of the block
+
+// console.log(message); // ReferenceError: message is not defined
+
+function add(a, b) {
+  const total = a + b;
+  // console.log(a, b);
+  return total;
+} // trying to access function parameter from outside
+
+// console.log(a, b);
+add(5, 7);
+
+const str1 = "591";
+const num = +str1;
+console.log(typeof num);
