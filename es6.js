@@ -248,4 +248,12 @@ add(5, 7);
 
 const str1 = "591";
 const num = +str1;
-console.log(typeof num);
+
+const num3 = 931;
+const str2 = num3 + "";
+// console.log(typeof str2);
+
+const isTruthy = Boolean(1);
+// console.log(isTruthy);
+
+
