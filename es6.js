@@ -218,4 +218,13 @@ function morningGreet() {
 
 // greeting(morningGreet);
 
+for (let i = 0; i< 5 ; i++){
+  let loopMassage = 'this is inside a for loop block'
+  // console.log(loopMassage);
+}
 
+let count = 0;
+while(count < 5){
+  // console.log(count);
+  count++
+}
