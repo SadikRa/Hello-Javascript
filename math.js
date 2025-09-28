@@ -32,11 +32,11 @@ const sentence = "i have a apple";
 
 const pattern1 = /apple/;
 const pattern = new RegExp("apple");
-console.log(pattern.test(sentence));
+// console.log(pattern.test(sentence));
 
 // set
 
-const mySet = new Set([1, 2, 3, 4, 5]);
+// const mySet = new Set([1, 2, 3, 4, 5]);
 // console.log(mySet);
 
 const numbers = [1, 2, 2, 3, 4, 4, 5];
@@ -45,4 +45,21 @@ const uniqueNumbers = new Set(numbers);
 
 const numberSet = [2, 2, 3, 3, 4, 4, 5, 6];
 const uniqueSet = new Set(numberSet);
-console.log(uniqueSet);
+// console.log(uniqueSet);
+
+const numbers2 = [1, 2, 2, 3, 4, 4, 5];
+const uniqueArray = [...new Set(numbers2)];
+// console.log(uniqueArray);
+
+const mySet = new Set();
+mySet.add(10);
+mySet.add(20);
+mySet.add(10);
+mySet.add(30);
+// console.log(mySet);
+
+// console.log(mySet.has(20));
+
+mySet.delete(10);
+// console.log(mySet);
+
