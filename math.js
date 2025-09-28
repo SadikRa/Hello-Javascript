@@ -33,3 +33,8 @@ const sentence = "i have a apple";
 const pattern1 = /apple/;
 const pattern = new RegExp("apple");
 console.log(pattern.test(sentence));
+
+// set
+
+const mySet = new Set([1, 2, 3, 4, 5]);
+console.log(mySet);
