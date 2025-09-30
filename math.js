@@ -73,3 +73,16 @@ function multiply(num1, num2) {
 
 const result = multiply(5, 7);
 // console.log(result);
+
+function fullName(first, second) {
+  if (typeof first !== "string") {
+    return "First name should be a String";
+  } else if (typeof second !== "string") {
+    return "Second name should be a String";
+  }
+  const full = first + " " + second;
+  return full;
+}
+
+const full = fullName("Rahan", 5);
+//   console.log(full);
