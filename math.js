@@ -86,3 +86,8 @@ function fullName(first, second) {
 
 const full = fullName("Rahan", 5);
 //   console.log(full);
+
+
+//   for (Let i = 0; i < 5; i++){
+//    console.log(i)
+//   }
