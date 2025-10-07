@@ -96,3 +96,5 @@ const full = fullName("Rahan", 5);
 
 
 // yah you lost again
+
+// okh, you should understand what will happen
