@@ -94,7 +94,17 @@ const full = fullName("Rahan", 5);
 // const num = 1;
 // num.toFixed(101);
 
-
 // yah you lost again
 
 // okh, you should understand what will happen
+
+// console.log(1);
+
+// console.log(2);
+// setTimeout(() => {
+//   console.log(3);
+// });
+// console.log(4);
+// console.log(5);
+// console.log(6);
+
