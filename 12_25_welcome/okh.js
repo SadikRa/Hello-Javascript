@@ -87,22 +87,30 @@ for (let value of list) {
 }
 
 const objects = { name: "Quran", explanation: "Hadith" };
-objects.name = "QURAN"
+objects.name = "QURAN";
 
-for(let key in objects){
-    // console.log(key);
+for (let key in objects) {
+  // console.log(key);
 }
 
-const myMap = new Map()
+const myMap = new Map();
 
-const numberMap = new Map([1,2, 3, 4, 5])
+const numberMap = new Map([1, 2, 3, 4, 5]);
 
-myMap.set(4, "four")
-myMap.delete(4)
-myMap.get("four")
-myMap.has(1)
+myMap.set(4, "four");
+myMap.delete(4);
+myMap.get("four");
+myMap.has(1);
 
-for(const [key, value] of myMap){
-    // console.log(value);
+for (const [key, value] of myMap) {
+  // console.log(value);
 }
 
+const newFun = (num, num1) => {
+  // console.log(num + num1);
+};
+
+const mapArr = [12, 3, 4, 5, 6, 6];
+const mapMulti = mapArr.map((num) => num * 2);
+
+// #TO DO  reduce, promise
