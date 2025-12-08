@@ -30,7 +30,7 @@ function test() {
 
 // operator
 
-const x= 6;
+const x = 6;
 const y = "3";
 
 // console.log(x+ y);
@@ -41,6 +41,23 @@ const y = "3";
 // }else{
 //     console.log('nah you can not do that');
 // }
+const int = parseInt(y);
+const float = parseFloat(y);
+const string = String(x);
 
+//  console.log(typeof(string));
+
+// conditional
+
+const cond = true ? "sadik" : "nah sadik";
+
+
+const arr2 = new Array(5)
+
+const list = ['quran', 'hadith', 'fiqh', 'arabic grammar' ]
+list.push('mustalah hadith')
+list.pop()
+list.shift('quran')
+list.unshift()
 
 
