@@ -51,13 +51,58 @@ const string = String(x);
 
 const cond = true ? "sadik" : "nah sadik";
 
+const arr2 = new Array(5);
 
-const arr2 = new Array(5)
+const list = ["quran", "hadith", "fiqh", "arabic grammar"];
+list.push("mustalah hadith");
+list.pop();
+list.shift("quran");
+list.unshift();
 
-const list = ['quran', 'hadith', 'fiqh', 'arabic grammar' ]
-list.push('mustalah hadith')
-list.pop()
-list.shift('quran')
-list.unshift()
+// console.log(list.indexOf('hadith'));
 
+const slice = list.slice(1, 3);
+const splice = list.splice(0, 0);
+
+const [a, z, ...b] = [1, 2, 3, 4, 5, 6];
+
+// do{
+//     console.log('run');
+//     break
+// }while(true){
+
+// }
+
+// while(true){
+//     console.log('object');
+// }
+
+for (let i = 0; i < 10; i++) {
+  // console.log(i);
+  return;
+}
+
+for (let value of list) {
+  // console.log(value);
+}
+
+const objects = { name: "Quran", explanation: "Hadith" };
+objects.name = "QURAN"
+
+for(let key in objects){
+    // console.log(key);
+}
+
+const myMap = new Map()
+
+const numberMap = new Map([1,2, 3, 4, 5])
+
+myMap.set(4, "four")
+myMap.delete(4)
+myMap.get("four")
+myMap.has(1)
+
+for(const [key, value] of myMap){
+    // console.log(value);
+}
 
