@@ -25,3 +25,5 @@ const sum2 = numbers.reduce(
 );
 
 // console.log(sum2);
+
+/// TO DO https://www.youtube.com/watch?v=bAUMuuRH99o
