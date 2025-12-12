@@ -8,3 +8,20 @@ const finds = numbers.find((numbers) => numbers == 40);
 
 // console.log(finds);
 
+let sum = 0;
+
+for (let n of numbers) {
+  sum += n;
+}
+// console.log(sum);
+
+const sum1 = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+// console.log(sum1);
+
+const sum2 = numbers.reduce(
+  (accumulator, currentValue) => accumulator + currentValue
+);
+
+// console.log(sum2);
