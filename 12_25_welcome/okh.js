@@ -114,3 +114,13 @@ const mapArr = [12, 3, 4, 5, 6, 6];
 const mapMulti = mapArr.map((num) => num * 2);
 
 // #TO DO  reduce, promise
+
+const numbers = [12, 23, 4, 4, 55, 56, 40, 23, 32, 32, 3, 2, 3];
+
+const filters = numbers.filter((numbers) => numbers < 40);
+
+console.log(filters);
+
+const numbers1 = [10, 20, 30, 40, 50];
+const allGreater = numbers1.filter((number) => number > 25);
+console.log(allGreater);
