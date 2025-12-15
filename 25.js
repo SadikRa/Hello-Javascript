@@ -35,3 +35,11 @@ const sum3 = price.reduce((accumulator, currentValue) => {
 
 // console.log(sum3);
 
+price.map((value) => {
+  // console.log(value);
+})
+
+const fil = price.filter((p) => {
+ return p== 12
+})
+// console.log(fil);
