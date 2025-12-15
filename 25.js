@@ -27,3 +27,11 @@ const sum2 = numbers.reduce(
 // console.log(sum2);
 
 /// TO DO https://www.youtube.com/watch?v=bAUMuuRH99o
+
+const price = [12, 2, 3, 4, 5, 5, 6, 55, 33];
+const sum3 = price.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+
+// console.log(sum3);
+
