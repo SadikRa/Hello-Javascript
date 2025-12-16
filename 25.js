@@ -48,7 +48,6 @@ for (let i = 0; i < 10; i++) {
   // console.log(i);
 }
 
-
 // for of loop
 for (key of price) {
   // console.log(key);
@@ -76,22 +75,24 @@ let companion = {
   Ali: 4,
 };
 
-
 // for of loop
 for (let value in companion) {
   // console.log(" status of " + value + " is " + companion[value]);
 }
 
-///promise  
+///promise
 
-let p = new Promise((resolve , reject) => {
-  let a = 1 + 1 
-  if(a== 2){
-    resolve('success')
-  }else{
-    reject('failed')
+let p = new Promise((resolve, reject) => {
+  let a = 1 + 1;
+  if (a == 2) {
+    resolve("success");
+  } else {
+    reject("failed");
   }
-})
+});
 
-// console.log(p);
-
+// p.then((massage) => {
+//   console.log("this is in the then " + massage);
+// }).catch((massage) => {
+//   console.log("this is catch " + massage);
+// });
