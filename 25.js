@@ -48,6 +48,8 @@ for (let i = 0; i < 10; i++) {
   // console.log(i);
 }
 
+
+// for of loop
 for (key of price) {
   // console.log(key);
 }
@@ -79,3 +81,17 @@ let companion = {
 for (let value in companion) {
   // console.log(" status of " + value + " is " + companion[value]);
 }
+
+///promise  
+
+let p = new Promise((resolve , reject) => {
+  let a = 1 + 1 
+  if(a== 2){
+    resolve('success')
+  }else{
+    reject('failed')
+  }
+})
+
+// console.log(p);
+
