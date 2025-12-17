@@ -97,8 +97,36 @@ let p = new Promise((resolve, reject) => {
 //   console.log("this is catch " + massage);
 // });
 
-let promise = new Promise(function (resolve, reject) {
-  resolve(90);
-});
+// let promise = new Promise(function (resolve, reject) {
+//   resolve(90);
+// });
 
-console.log(promise);
+// console.log(promise);
+
+// i = 1;
+// while (i < 10) {
+// i++
+// }
+// console.log(i);
+
+// let sum5 = 0;
+
+// while(sum5 < 6){
+//   console.log('muksurun');
+//   sum5++
+// }
+
+// let word = 0;
+
+// do {
+//   console.log("muftahun");
+//   word++;
+// } while (word < 5);
+
+
+// let word = 0;
+
+// for(word ; word < 10; word++){
+//   console.log('oyfun');
+// }
+
