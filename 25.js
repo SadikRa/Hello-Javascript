@@ -96,3 +96,9 @@ let p = new Promise((resolve, reject) => {
 // }).catch((massage) => {
 //   console.log("this is catch " + massage);
 // });
+
+let promise = new Promise(function (resolve, reject) {
+  resolve(90);
+});
+
+console.log(promise);
