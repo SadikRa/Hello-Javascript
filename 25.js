@@ -136,3 +136,19 @@ let p = new Promise((resolve, reject) => {
 //     alert("i am a promise");
 //   }, 5000);
 // });
+
+// let prom = new Promise((resolve, reject) => {
+//   console.log('i am doing wait');
+//   setTimeout(() => {
+//     console.log('object');
+//     resolve(true)
+//   }, 5000);
+// });
+
+// let promi = new Promise((resolve, reject) => {
+//   console.log("i am doing wait");
+//   setTimeout(() => {
+//     console.log("object");
+//     reject(new Error("no you can not do that"));
+//   }, 5000);
+// });
