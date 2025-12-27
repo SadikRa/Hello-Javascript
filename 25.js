@@ -123,7 +123,6 @@ let p = new Promise((resolve, reject) => {
 //   word++;
 // } while (word < 5);
 
-
 // let word = 0;
 
 // for(word ; word < 10; word++){
@@ -132,3 +131,8 @@ let p = new Promise((resolve, reject) => {
 
 //Ahh
 
+// let pr = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     alert("i am a promise");
+//   }, 5000);
+// });
