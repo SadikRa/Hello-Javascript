@@ -6,8 +6,6 @@ const sum = numbers.reduce((accumulator, currentValue) => {
 });
 // console.log(sum);
 
-
-
 const promise = new Promise((resolve, reject) => {
   let i = 1 + 1;
   if (i == 2) {
@@ -18,3 +16,18 @@ const promise = new Promise((resolve, reject) => {
 });
 
 // console.log(promise);
+
+for (let i = 0; i < 10; i++) {
+  //   console.log(i);
+}
+
+function hello() {
+  //   console.log(hello);
+}
+
+// console.log("1");
+// setTimeout(() => {
+//   console.log("object");
+// }, 4000);
+// console.log("2");
+
