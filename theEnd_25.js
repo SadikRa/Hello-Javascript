@@ -5,3 +5,16 @@ const sum = numbers.reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
 });
 // console.log(sum);
+
+
+
+const promise = new Promise((resolve, reject) => {
+  let i = 1 + 1;
+  if (i == 2) {
+    resolve("success");
+  } else {
+    reject("failed");
+  }
+});
+
+// console.log(promise);
